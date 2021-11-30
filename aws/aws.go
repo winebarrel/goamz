@@ -397,6 +397,11 @@ func EnvAuth() (auth Auth, err error) {
 	if auth.SecretKey == "" {
 		err = errors.New("AWS_SECRET_ACCESS_KEY or AWS_SECRET_KEY not found in environment")
 	}
+
+	if token, ok := os.LookupEnv("AWS_SESSION_TOKEN"); ok {
+		auth.token = token
+	}
+
 	return
 }
 
