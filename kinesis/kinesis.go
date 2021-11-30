@@ -2,12 +2,13 @@ package kinesis
 
 import (
 	"encoding/json"
-	"github.com/AdRoll/goamz/aws"
 	"io/ioutil"
 	"log"
 	"net/http"
 	"strings"
 	"time"
+
+	"github.com/winebarre/goamz/aws"
 )
 
 const debug = false

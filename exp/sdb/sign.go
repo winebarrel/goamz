@@ -4,11 +4,12 @@ import (
 	"crypto/hmac"
 	"crypto/sha256"
 	"encoding/base64"
-	"github.com/AdRoll/goamz/aws"
 	"net/http"
 	"net/url"
 	"sort"
 	"strings"
+
+	"github.com/winebarre/goamz/aws"
 )
 
 var b64 = base64.StdEncoding

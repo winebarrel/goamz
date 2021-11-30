@@ -2,7 +2,7 @@ package aws_test
 
 import (
 	"fmt"
-	"github.com/AdRoll/goamz/aws"
+	"github.com/winebarre/goamz/aws"
 	"gopkg.in/check.v1"
 	"net/http"
 	"strings"

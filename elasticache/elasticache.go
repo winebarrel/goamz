@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/AdRoll/goamz/aws"
+	"github.com/winebarre/goamz/aws"
 )
 
 var (

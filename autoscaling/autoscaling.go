@@ -3,13 +3,14 @@ package autoscaling
 import (
 	"encoding/xml"
 	"fmt"
-	"github.com/AdRoll/goamz/aws"
 	"log"
 	"net/http"
 	"net/http/httputil"
 	"net/url"
 	"strconv"
 	"time"
+
+	"github.com/winebarre/goamz/aws"
 )
 
 const debug = false

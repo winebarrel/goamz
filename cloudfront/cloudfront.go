@@ -7,11 +7,12 @@ import (
 	"encoding/base64"
 	"encoding/json"
 	"fmt"
-	"github.com/AdRoll/goamz/aws"
 	"net/url"
 	"strconv"
 	"strings"
 	"time"
+
+	"github.com/winebarre/goamz/aws"
 )
 
 type CloudFront struct {

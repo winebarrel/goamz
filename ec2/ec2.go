@@ -17,7 +17,6 @@ import (
 	"encoding/xml"
 	"errors"
 	"fmt"
-	"github.com/AdRoll/goamz/aws"
 	"log"
 	"net/http"
 	"net/http/httputil"
@@ -25,6 +24,8 @@ import (
 	"sort"
 	"strconv"
 	"time"
+
+	"github.com/winebarre/goamz/aws"
 )
 
 const debug = false

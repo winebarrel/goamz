@@ -1,6 +1,5 @@
 package dynamodb
 
-import simplejson "github.com/bitly/go-simplejson"
 import (
 	"bytes"
 	"errors"
@@ -9,7 +8,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/AdRoll/goamz/aws"
+	simplejson "github.com/bitly/go-simplejson"
+	"github.com/winebarre/goamz/aws"
 )
 
 type Server struct {

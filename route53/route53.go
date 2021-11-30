@@ -4,10 +4,11 @@ import (
 	"bytes"
 	"encoding/xml"
 	"fmt"
-	"github.com/AdRoll/goamz/aws"
 	"io"
 	"net/http"
 	"strconv"
+
+	"github.com/winebarre/goamz/aws"
 )
 
 type Route53 struct {

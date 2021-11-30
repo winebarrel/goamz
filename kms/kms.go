@@ -10,10 +10,11 @@ import (
 	"bytes"
 	"encoding/json"
 	"fmt"
-	"github.com/AdRoll/goamz/aws"
 	"io/ioutil"
 	"net/http"
 	"time"
+
+	"github.com/winebarre/goamz/aws"
 )
 
 const (

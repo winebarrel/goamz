@@ -1,7 +1,7 @@
 package aws_test
 
 import (
-	"github.com/AdRoll/goamz/aws"
+	"github.com/winebarre/goamz/aws"
 	"gopkg.in/check.v1"
 	"io/ioutil"
 	"os"
@@ -104,11 +104,11 @@ func (s *S) TestCredentialsFileAuth(c *check.C) {
 
 [default] ; comment 123
 aws_access_key_id = keyid1 ;comment
-aws_secret_access_key=key1     
+aws_secret_access_key=key1
 
 	[profile2]
     aws_access_key_id = keyid2 ;comment
-	aws_secret_access_key=key2     
+	aws_secret_access_key=key2
 	aws_session_token=token1
 
 `

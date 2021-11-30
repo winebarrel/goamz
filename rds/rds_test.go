@@ -1,9 +1,9 @@
 package rds_test
 
 import (
-	"github.com/AdRoll/goamz/aws"
-	"github.com/AdRoll/goamz/rds"
-	"github.com/AdRoll/goamz/testutil"
+	"github.com/winebarre/goamz/aws"
+	"github.com/winebarre/goamz/rds"
+	"github.com/winebarre/goamz/testutil"
 	"gopkg.in/check.v1"
 	"testing"
 )

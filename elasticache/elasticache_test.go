@@ -3,8 +3,8 @@ package elasticache
 import (
 	"testing"
 
-	"github.com/AdRoll/goamz/aws"
-	"github.com/AdRoll/goamz/testutil"
+	"github.com/winebarre/goamz/aws"
+	"github.com/winebarre/goamz/testutil"
 	check "gopkg.in/check.v1"
 )
 

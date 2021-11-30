@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/AdRoll/goamz/aws"
+	"github.com/winebarre/goamz/aws"
 )
 
 const MAX_RECIPIENTS_PER_REQUEST = 50

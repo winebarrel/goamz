@@ -1,9 +1,9 @@
 package kms_test
 
 import (
-	"github.com/AdRoll/goamz/aws"
-	"github.com/AdRoll/goamz/kms"
-	"github.com/AdRoll/goamz/testutil"
+	"github.com/winebarre/goamz/aws"
+	"github.com/winebarre/goamz/kms"
+	"github.com/winebarre/goamz/testutil"
 	"gopkg.in/check.v1"
 	"testing"
 )

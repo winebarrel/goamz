@@ -1,7 +1,7 @@
 package route53_test
 
 import (
-	"github.com/AdRoll/goamz/route53"
+	"github.com/winebarre/goamz/route53"
 	. "gopkg.in/check.v1"
 	"testing"
 )

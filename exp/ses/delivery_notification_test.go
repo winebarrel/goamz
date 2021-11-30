@@ -6,7 +6,7 @@ import (
 
 	"gopkg.in/check.v1"
 
-	"github.com/AdRoll/goamz/exp/ses"
+	"github.com/winebarre/goamz/exp/ses"
 )
 
 func (s *S) TestSNSBounceNotificationUnmarshalling(c *check.C) {

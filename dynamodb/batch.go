@@ -6,7 +6,7 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/AdRoll/goamz/dynamodb/dynamizer"
+	"github.com/winebarre/goamz/dynamodb/dynamizer"
 )
 
 // Fake error for use with the retry strategy. Any keys returned in the
