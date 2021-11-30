@@ -4,16 +4,17 @@ import (
 	"bytes"
 	"crypto/md5"
 	"fmt"
-	"github.com/winebarre/goamz/aws"
-	"github.com/winebarre/goamz/s3"
-	"github.com/winebarre/goamz/testutil"
-	"gopkg.in/check.v1"
 	"io/ioutil"
 	"net"
 	"net/http"
 	"sort"
 	"strings"
 	"time"
+
+	"github.com/winebarrel/goamz/aws"
+	"github.com/winebarrel/goamz/s3"
+	"github.com/winebarrel/goamz/testutil"
+	"gopkg.in/check.v1"
 )
 
 // AmazonServer represents an Amazon S3 server.

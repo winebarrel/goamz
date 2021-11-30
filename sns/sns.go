@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/winebarre/goamz/aws"
+	"github.com/winebarrel/goamz/aws"
 )
 
 type SNS struct {

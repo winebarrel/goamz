@@ -2,13 +2,14 @@ package ec2_test
 
 import (
 	"fmt"
-	"github.com/winebarre/goamz/aws"
-	"github.com/winebarre/goamz/ec2"
-	"github.com/winebarre/goamz/ec2/ec2test"
-	"github.com/winebarre/goamz/testutil"
-	"gopkg.in/check.v1"
 	"regexp"
 	"sort"
+
+	"github.com/winebarrel/goamz/aws"
+	"github.com/winebarrel/goamz/ec2"
+	"github.com/winebarrel/goamz/ec2/ec2test"
+	"github.com/winebarrel/goamz/testutil"
+	"gopkg.in/check.v1"
 )
 
 // LocalServer represents a local ec2test fake server.

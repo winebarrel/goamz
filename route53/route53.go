@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/winebarre/goamz/aws"
+	"github.com/winebarrel/goamz/aws"
 )
 
 type Route53 struct {

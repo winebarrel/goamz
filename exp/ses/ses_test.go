@@ -4,9 +4,9 @@ import (
 	"encoding/base64"
 	"testing"
 
-	"github.com/winebarre/goamz/aws"
-	"github.com/winebarre/goamz/exp/ses"
-	"github.com/winebarre/goamz/testutil"
+	"github.com/winebarrel/goamz/aws"
+	"github.com/winebarrel/goamz/exp/ses"
+	"github.com/winebarrel/goamz/testutil"
 	"gopkg.in/check.v1"
 )
 

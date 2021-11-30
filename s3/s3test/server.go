@@ -21,7 +21,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/winebarre/goamz/s3"
+	"github.com/winebarrel/goamz/s3"
 )
 
 const debug = false

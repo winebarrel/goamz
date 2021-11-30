@@ -1,8 +1,8 @@
 package mturk_test
 
 import (
-	"github.com/winebarre/goamz/aws"
-	"github.com/winebarre/goamz/exp/mturk"
+	"github.com/winebarrel/goamz/aws"
+	"github.com/winebarrel/goamz/exp/mturk"
 	"gopkg.in/check.v1"
 )
 

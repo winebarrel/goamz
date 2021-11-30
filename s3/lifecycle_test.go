@@ -2,12 +2,13 @@ package s3_test
 
 import (
 	"encoding/xml"
-	"github.com/winebarre/goamz/s3"
-	"gopkg.in/check.v1"
 	"io/ioutil"
 	"net/http"
 	"strings"
 	"time"
+
+	"github.com/winebarrel/goamz/s3"
+	"gopkg.in/check.v1"
 )
 
 func (s *S) TestLifecycleConfiguration(c *check.C) {

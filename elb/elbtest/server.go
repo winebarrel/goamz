@@ -14,7 +14,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/winebarre/goamz/elb"
+	"github.com/winebarrel/goamz/elb"
 )
 
 // Server implements an ELB simulator for use in testing.

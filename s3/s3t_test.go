@@ -1,13 +1,14 @@
 package s3_test
 
 import (
-	"github.com/winebarre/goamz/aws"
-	"github.com/winebarre/goamz/s3"
-	"github.com/winebarre/goamz/s3/s3test"
-	"github.com/winebarre/goamz/testutil"
-	"gopkg.in/check.v1"
 	"io/ioutil"
 	"time"
+
+	"github.com/winebarrel/goamz/aws"
+	"github.com/winebarrel/goamz/s3"
+	"github.com/winebarrel/goamz/s3/s3test"
+	"github.com/winebarrel/goamz/testutil"
+	"gopkg.in/check.v1"
 )
 
 type LocalServer struct {

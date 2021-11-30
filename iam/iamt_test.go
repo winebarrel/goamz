@@ -1,9 +1,9 @@
 package iam_test
 
 import (
-	"github.com/winebarre/goamz/aws"
-	"github.com/winebarre/goamz/iam"
-	"github.com/winebarre/goamz/iam/iamtest"
+	"github.com/winebarrel/goamz/aws"
+	"github.com/winebarrel/goamz/iam"
+	"github.com/winebarrel/goamz/iam/iamtest"
 	"gopkg.in/check.v1"
 )
 

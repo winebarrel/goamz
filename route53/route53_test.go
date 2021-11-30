@@ -1,9 +1,10 @@
 package route53_test
 
 import (
-	"github.com/winebarre/goamz/route53"
-	. "gopkg.in/check.v1"
 	"testing"
+
+	"github.com/winebarrel/goamz/route53"
+	. "gopkg.in/check.v1"
 )
 
 // Hook up gocheck into the "go test" runner.

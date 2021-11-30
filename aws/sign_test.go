@@ -2,11 +2,12 @@ package aws_test
 
 import (
 	"fmt"
-	"github.com/winebarre/goamz/aws"
-	"gopkg.in/check.v1"
 	"net/http"
 	"strings"
 	"time"
+
+	"github.com/winebarrel/goamz/aws"
+	"gopkg.in/check.v1"
 )
 
 var _ = check.Suite(&V4SignerSuite{})

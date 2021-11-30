@@ -3,7 +3,7 @@ package testutil
 import (
 	"flag"
 
-	"github.com/winebarre/goamz/aws"
+	"github.com/winebarrel/goamz/aws"
 	"gopkg.in/check.v1"
 )
 

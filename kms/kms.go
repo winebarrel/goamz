@@ -14,7 +14,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/winebarre/goamz/aws"
+	"github.com/winebarrel/goamz/aws"
 )
 
 const (

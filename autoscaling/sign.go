@@ -7,7 +7,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/winebarre/goamz/aws"
+	"github.com/winebarrel/goamz/aws"
 )
 
 // ----------------------------------------------------------------------------

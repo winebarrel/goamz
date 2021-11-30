@@ -3,10 +3,11 @@ package dynamodb
 import (
 	"bytes"
 	"encoding/json"
-	"github.com/winebarre/goamz/aws"
-	"github.com/winebarre/goamz/dynamodb/dynamizer"
 	"reflect"
 	"testing"
+
+	"github.com/winebarrel/goamz/aws"
+	"github.com/winebarrel/goamz/dynamodb/dynamizer"
 )
 
 func TestDynamoQuery(t *testing.T) {

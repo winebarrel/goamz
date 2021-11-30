@@ -1,9 +1,9 @@
 package elb_test
 
 import (
-	"github.com/winebarre/goamz/aws"
-	"github.com/winebarre/goamz/elb"
-	"github.com/winebarre/goamz/elb/elbtest"
+	"github.com/winebarrel/goamz/aws"
+	"github.com/winebarrel/goamz/elb"
+	"github.com/winebarrel/goamz/elb/elbtest"
 	"gopkg.in/check.v1"
 )
 

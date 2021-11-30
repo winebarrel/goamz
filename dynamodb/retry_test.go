@@ -2,7 +2,6 @@ package dynamodb
 
 import (
 	"encoding/json"
-	"gopkg.in/check.v1"
 	"io"
 	"io/ioutil"
 	"net/http"
@@ -10,7 +9,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/winebarre/goamz/aws"
+	"gopkg.in/check.v1"
+
+	"github.com/winebarrel/goamz/aws"
 )
 
 type RetrySuite struct {

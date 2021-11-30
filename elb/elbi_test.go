@@ -2,9 +2,10 @@ package elb_test
 
 import (
 	"flag"
-	"github.com/winebarre/goamz/aws"
-	"github.com/winebarre/goamz/ec2"
-	"github.com/winebarre/goamz/elb"
+
+	"github.com/winebarrel/goamz/aws"
+	"github.com/winebarrel/goamz/ec2"
+	"github.com/winebarrel/goamz/elb"
 	"gopkg.in/check.v1"
 )
 

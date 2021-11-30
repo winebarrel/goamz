@@ -10,11 +10,12 @@ import (
 	"encoding/base64"
 	"encoding/json"
 	"fmt"
-	"github.com/winebarre/goamz/kinesis"
 	"path/filepath"
 	"reflect"
 	"runtime"
 	"testing"
+
+	"github.com/winebarrel/goamz/kinesis"
 )
 
 // assert fails the test if the condition is false.

@@ -1,7 +1,7 @@
 package sns
 
 import (
-	"github.com/winebarre/goamz/aws"
+	"github.com/winebarrel/goamz/aws"
 )
 
 type Topic struct {

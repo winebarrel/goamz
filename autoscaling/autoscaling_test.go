@@ -1,9 +1,10 @@
 package autoscaling
 
 import (
-	"github.com/winebarre/goamz/autoscaling/astest"
-	"github.com/winebarre/goamz/aws"
 	"testing"
+
+	"github.com/winebarrel/goamz/autoscaling/astest"
+	"github.com/winebarrel/goamz/aws"
 )
 
 var testServer = astest.NewHTTPServer()

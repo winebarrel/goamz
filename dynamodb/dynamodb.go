@@ -9,7 +9,7 @@ import (
 	"time"
 
 	simplejson "github.com/bitly/go-simplejson"
-	"github.com/winebarre/goamz/aws"
+	"github.com/winebarrel/goamz/aws"
 )
 
 type Server struct {

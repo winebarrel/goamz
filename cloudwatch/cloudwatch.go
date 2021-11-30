@@ -22,7 +22,7 @@ import (
 	"time"
 
 	"github.com/feyeleanor/sets"
-	"github.com/winebarre/goamz/aws"
+	"github.com/winebarrel/goamz/aws"
 )
 
 // The CloudWatch type encapsulates all the CloudWatch operations in a region.

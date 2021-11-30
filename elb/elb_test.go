@@ -1,10 +1,11 @@
 package elb_test
 
 import (
-	"github.com/winebarre/goamz/aws"
-	"github.com/winebarre/goamz/elb"
-	"gopkg.in/check.v1"
 	"time"
+
+	"github.com/winebarrel/goamz/aws"
+	"github.com/winebarrel/goamz/elb"
+	"gopkg.in/check.v1"
 )
 
 type S struct {

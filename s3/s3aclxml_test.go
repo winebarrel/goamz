@@ -3,7 +3,7 @@ package s3_test
 import (
 	"errors"
 
-	"github.com/winebarre/goamz/s3"
+	"github.com/winebarrel/goamz/s3"
 	"gopkg.in/check.v1"
 )
 

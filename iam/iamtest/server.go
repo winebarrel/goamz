@@ -12,7 +12,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/winebarre/goamz/iam"
+	"github.com/winebarrel/goamz/iam"
 )
 
 type action struct {

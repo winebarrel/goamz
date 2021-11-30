@@ -1,12 +1,13 @@
 package iam_test
 
 import (
-	"github.com/winebarre/goamz/aws"
-	"github.com/winebarre/goamz/iam"
-	"github.com/winebarre/goamz/testutil"
-	"gopkg.in/check.v1"
 	"strings"
 	"testing"
+
+	"github.com/winebarrel/goamz/aws"
+	"github.com/winebarrel/goamz/iam"
+	"github.com/winebarrel/goamz/testutil"
+	"gopkg.in/check.v1"
 )
 
 func Test(t *testing.T) {

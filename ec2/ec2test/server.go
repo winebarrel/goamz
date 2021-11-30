@@ -17,7 +17,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/winebarre/goamz/ec2"
+	"github.com/winebarrel/goamz/ec2"
 )
 
 var b64 = base64.StdEncoding
